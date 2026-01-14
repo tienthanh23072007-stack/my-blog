@@ -6,7 +6,7 @@ tags: [github, blog, github-pages, huong-dan]
 
 ## 👋 Giới thiệu
 
-Mình là sinh viên mới học CNTT và đây là **quá trình mình tự dựng một website blog cá nhân** bằng **GitHub + VS Code**.  
+Mình tên là Mai Tiến Thành, sinh viên năm nhất đang học ngành ATTT CLC của Học viện Công nghệ Bưu Chính viễn thông và đây là **quá trình mình tự dựng một website blog cá nhân** bằng **GitHub + VS Code**.  
 Bài viết này dành cho **người mới hoàn toàn**, chưa biết gì về GitHub.
 
 ---
