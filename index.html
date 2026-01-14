@@ -108,6 +108,85 @@
   <footer>
 <p>© 2026 – Blog cá nhân của Mai Tiến Thành | GitHub Pages</p>
   </footer>
+  <section>
+    <h2>🔧 Bước 3: Khởi tạo Git cho project</h2>
+    <p>
+      Sau khi đã mở đúng thư mục project trong VS Code, bạn cần khởi tạo Git
+      để quản lý mã nguồn.
+    </p>
+    <p>Mở Terminal trong VS Code và chạy lần lượt các lệnh:</p>
+    <pre><code>git init
+git add .
+git commit -m "Initial commit"</code></pre>
+    <p>
+      Lệnh trên sẽ khởi tạo Git và tạo commit đầu tiên cho project blog.
+    </p>
+  </section>
+
+  <section>
+    <h2>🔗 Bước 4: Kết nối project với GitHub repository</h2>
+    <p>
+      Sau khi tạo repository trên GitHub, bạn cần liên kết project local với repo đó.
+    </p>
+    <p>Chạy lệnh sau (thay link repo của bạn vào):</p>
+    <pre><code>git remote add origin https://github.com/username/my-blog.git
+git branch -M main
+git push -u origin main</code></pre>
+    <p>
+      Sau bước này, toàn bộ code blog của bạn đã được đẩy lên GitHub thành công.
+    </p>
+  </section>
+
+  <section>
+    <h2>🌐 Bước 5: Bật GitHub Pages để tạo website</h2>
+    <p>Tiếp theo, bạn cần bật GitHub Pages để biến repository thành một website:</p>
+    <ol>
+      <li>Vào repository <strong>my-blog</strong> trên GitHub</li>
+      <li>Chọn tab <strong>Settings</strong></li>
+      <li>Chọn mục <strong>Pages</strong> ở menu bên trái</li>
+      <li>
+        Trong phần <strong>Build and deployment</strong>, chọn:
+        <ul>
+          <li>Source: <strong>Deploy from a branch</strong></li>
+          <li>Branch: <strong>main</strong></li>
+          <li>Folder: <strong>/(root)</strong></li>
+        </ul>
+      </li>
+      <li>Nhấn <strong>Save</strong></li>
+    </ol>
+    <p>
+      Sau vài chục giây, GitHub sẽ cung cấp cho bạn một link website dạng:
+      <code>https://username.github.io/my-blog/</code>
+    </p>
+  </section>
+
+  <section>
+    <h2>🏠 Bước 6: Tạo trang chủ cho blog</h2>
+    <p>
+      Để website hiển thị nội dung, repository của bạn cần có file
+      <strong>index.html</strong> ở thư mục gốc.
+    </p>
+    <p>
+      File <code>index.html</code> sẽ đóng vai trò là trang chủ của blog và là trang
+      mà người xem CV sẽ truy cập đầu tiên.
+    </p>
+    <p>
+      Trong bài viết này, mình sử dụng HTML thuần để đảm bảo website chạy
+      đơn giản và dễ hiểu cho người mới.
+    </p>
+  </section>
+
+  <section>
+    <h2>📝 Bước 7: Chia sẻ blog trong CV</h2>
+    <p>
+      Sau khi hoàn thành các bước trên, bạn đã có một website blog cá nhân
+      chạy thật trên Internet.
+    </p>
+    <p>
+      Bạn có thể gắn link blog này vào CV để nhà tuyển dụng hoặc người xem
+      có thể mở trực tiếp trên trình duyệt mà không cần đăng nhập GitHub.
+    </p>
+    <p>
 
 </body>
 </html>
