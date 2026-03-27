@@ -4,16 +4,17 @@
   "private": true,
   "scripts": {
     "start": "docusaurus start",
-  "build": "docusaurus build",
-  "clear": "docusaurus clear",
-  "serve": "docusaurus serve",
-  "deploy": "GIT_USER=tienthanh23072007-stack docusaurus deploy"
+    "build": "docusaurus build",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "deploy": "GIT_USER=tienthanh23072007-stack docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",
     "@docusaurus/preset-classic": "3.9.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "cross-env": "^10.1.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
