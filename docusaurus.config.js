@@ -20,6 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
+<<<<<<< HEAD
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
@@ -31,6 +32,13 @@ const config = {
   projectName: 'my-blog', // Usually your repo name.
  trailingSlash: true,
   onBrokenLinks: 'throw',
+=======
+  // ✅ URL GitHub Pages 
+  url: 'https://tienthanh23072007-stack.github.io',
+baseUrl: '/my-blog/',
+organizationName: 'tienthanh23072007-stack',
+projectName: 'my-blog',
+>>>>>>> 71768a0 (temp fix before rebase)
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
